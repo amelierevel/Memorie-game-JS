@@ -25,10 +25,6 @@ function shuffleArray() {
     cards.sort(() => Math.random() - 0.5);
 }
 
-function reset() {
-
-}
-
 
 //Au chargement de la page je mélange mon tableau
 shuffleArray();
@@ -90,3 +86,6 @@ document.querySelector('#boardgame').addEventListener('click', function (e) {
 
 
 //Au clic sur le bouton "rejouer" je mélange mon tableau
+
+
+//Reste à afficher tryCount, afficher la modale de fin de partie, rendre fonctionnel le btn rejouer, améliorer le design et les fonctionnalités (? ajouter une consigne, un compteur de victoires, une limite de coup pour gagner, des stat...?)
