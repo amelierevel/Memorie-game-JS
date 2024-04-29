@@ -89,3 +89,5 @@ document.querySelector('#boardgame').addEventListener('click', function (e) {
 
 
 //Reste à afficher tryCount, afficher la modale de fin de partie, rendre fonctionnel le btn rejouer, améliorer le design et les fonctionnalités (? ajouter une consigne, un compteur de victoires, une limite de coup pour gagner, des stat...?)
+
+//Ajouter une sécurité si on clique 2 fois sur la même carte + check d'autres sécurités si besoin
